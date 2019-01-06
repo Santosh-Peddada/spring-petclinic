@@ -12,7 +12,7 @@ node('MAVEN'){
 
    stage('Archival'){
    // This step should not normally be used in your script. Consult the inline help for details.
-    archive 'targer/*.jar'
+    archive 'target/*.jar'
   }
    stage('Test-results'){
    // This step should not normally be used in your script. Consult the inline help for details.
